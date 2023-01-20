@@ -4,3 +4,5 @@
 
 
 Tool met de code om de penaltypunten te zien
+
+volgens mij kan deze trouwens ook gebruikt worden voor de Gantt diagram, maar daar kom je vanzelf achter. joe
