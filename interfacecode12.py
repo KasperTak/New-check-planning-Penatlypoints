@@ -118,13 +118,13 @@ with tab1:
                 buslijn = buslijn.fillna(0)
                 omloopnummer = data_planning['omloop nummer']
                 
-                data = pd.read_excel('Connexxion data - 2022-2023.xlsx', sheet_name='Dienstregeling')
+                data = pd.read_excel(connexxion_file, sheet_name='Dienstregeling')
                 Startlocatie = data.startlocatie
                 Vertrektijd = data.vertrektijd
                 Eindlocatie = data.eindlocatie
                 Buslijn_ = data.buslijn
                 
-                data_afstand = pd.read_excel('Connexxion data - 2022-2023.xlsx', sheet_name='Afstand matrix')
+                data_afstand = pd.read_excel(connexxion_file, sheet_name='Afstand matrix')
                 startlocatie_a = data_afstand.startlocatie
                 eindlocatie_a = data_afstand.eindlocatie
                 minimale_tijd = data_afstand['min reistijd in min']
@@ -133,7 +133,7 @@ with tab1:
                 Buslijn = data_afstand['buslijn'].fillna(0)
                 
                 
-                df = pd.read_excel('data_project_05.xlsx')
+                df = pd.read_excel(r'data_project_05 (3).xlsx')
                 tijd=df['t']
                 speed=df['WheelBasedVehicleSpeed']
                 voltage=df['DICO3_DCLinkVoltageDriveSystem']
