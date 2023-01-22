@@ -5,4 +5,9 @@
 
 Tool met de code om de penaltypunten te zien
 
-volgens mij kan deze trouwens ook gebruikt worden voor de Gantt diagram, maar daar kom je vanzelf achter. joe
+                DRU=0
+                for i in range(len(data_planning)):
+                    if buslijn[i]!=0:
+                        DRU+=reistijd[i]
+                DPRU=np.sum(reistijd)  
+                DD=DPRU/DRU    
