@@ -1,5 +1,7 @@
 # New-check-planning-Penatlypoints
 
+BESTE MENSEN DIT IS DE GOEIE MET DD=1.3943
+
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kaspertak-new-check-planning-penatlypoin-interfacecode12-jaqzhx.streamlit.app/)
 
 
